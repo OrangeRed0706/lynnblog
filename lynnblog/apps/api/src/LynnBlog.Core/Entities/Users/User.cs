@@ -1,3 +1,5 @@
+using LynnBlog.Core.Entities.Posts;
+
 namespace LynnBlog.Core.Entities.Users;
 
 /// <summary>

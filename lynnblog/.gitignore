@@ -16,6 +16,10 @@ build/
 .next/
 .out/
 
+# .NET
+bin/
+obj/
+
 # IDE
 .vscode/
 .idea/
