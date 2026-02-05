@@ -1,0 +1,230 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Api/LynnBlog.Api.csproj": {}
+  },
+  "projects": {
+    "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Api/LynnBlog.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Api/LynnBlog.Api.csproj",
+        "projectName": "LynnBlog.Api",
+        "projectPath": "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Api/LynnBlog.Api.csproj",
+        "packagesPath": "/home/lynn/.nuget/packages/",
+        "outputPath": "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lynn/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Core/LynnBlog.Core.csproj": {
+                "projectPath": "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Core/LynnBlog.Core.csproj"
+              },
+              "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Infrastructure/LynnBlog.Infrastructure.csproj": {
+                "projectPath": "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Infrastructure/LynnBlog.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/lynn/.dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Core/LynnBlog.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Core/LynnBlog.Core.csproj",
+        "projectName": "LynnBlog.Core",
+        "projectPath": "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Core/LynnBlog.Core.csproj",
+        "packagesPath": "/home/lynn/.nuget/packages/",
+        "outputPath": "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lynn/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/lynn/.dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Infrastructure/LynnBlog.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Infrastructure/LynnBlog.Infrastructure.csproj",
+        "projectName": "LynnBlog.Infrastructure",
+        "projectPath": "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Infrastructure/LynnBlog.Infrastructure.csproj",
+        "packagesPath": "/home/lynn/.nuget/packages/",
+        "outputPath": "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lynn/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Core/LynnBlog.Core.csproj": {
+                "projectPath": "/home/lynn/.openclaw/workspace/lynnblog/apps/api/src/LynnBlog.Core/LynnBlog.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.Extensions.Diagnostics": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/lynn/.dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
